@@ -5,6 +5,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -khtml-user-drag: none;
+}
+
 a,
 a:hover,
 a:focus {
