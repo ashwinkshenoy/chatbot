@@ -157,6 +157,7 @@ display: none;
   box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16),0 0px 10px 0 rgba(0,0,0,0.12);
   padding: 15px 15px;
   border-radius: 50px;
+  border: solid 1px #ccc;
 }
 
 /* Spinner start */
