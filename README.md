@@ -12,3 +12,7 @@ Also this ChatBot is built in the form of widget, every logic happens in js file
 You also could put the html content in index.html.
 
 Remember to change the api.ai key in js/script.js file
+
+There can be mistakes in the code :P
+
+Do Let me know your thoughts on this :)
