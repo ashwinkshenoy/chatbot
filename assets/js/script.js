@@ -120,7 +120,7 @@ $(document).ready(function() {
 			headers: {
 				"Authorization": "Bearer " + accessToken
 			},
-			data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
+			// data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
 			success: function(data) {
 				main(data);
 				// console.log(data);
