@@ -301,6 +301,19 @@ display: none;
   font-weight: 100;
 }
 
+.powered {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.powered img {
+  width: 70px;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
 .foo-txt {
 	font-size: 15px;
 	font-weight: 400;
