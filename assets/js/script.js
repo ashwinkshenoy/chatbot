@@ -170,6 +170,7 @@ $(document).ready(function() {
 				var BotResponse = '<p class="botResult">'+val+'</p><div class="clearfix"></div>';
 				$(BotResponse).appendTo('#result_div');
 			} else {
+				val = val.replace(new RegExp('\r?\n','g'), '<br />');
 				var BotResponse = '<p class="botResult">'+val+'</p><div class="clearfix"></div>';
 				$(BotResponse).appendTo('#result_div');
 			}

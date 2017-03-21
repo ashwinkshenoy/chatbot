@@ -160,9 +160,9 @@ mybot .resultDiv .botResult {
   width: 400px;
   float: left;
   box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16),0 0px 10px 0 rgba(0,0,0,0.12);
-  margin-left: 5px;
   border-top-left-radius: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
   width: 100%;
 }
 
@@ -188,11 +188,11 @@ mybot .resultDiv .userEnteredText {
   font-weight: 400;
   width: 400px;
   box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16),0 0px 10px 0 rgba(0,0,0,0.12);
-  margin-left: 5px;
   border-top-right-radius: 0;
   position: relative;
   left: -6px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
   width: 100%;
 }
 
