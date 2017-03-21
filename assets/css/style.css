@@ -54,6 +54,45 @@ a:focus {
 
 /* General end*/
 
+
+/* Demo */
+.hd1 {
+  margin-top: 35vh;
+  font-size: 50px;
+  font-weight: 100;
+}
+
+.powered {
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.powered img {
+  width: 70px;
+  position: relative;
+  top: 8px;
+}
+
+.footer {
+  margin-top: 50px;
+}
+
+.foo-txt {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Satisfy', cursive;
+  text-shadow: none;
+  color: #272727;
+}
+
+.fa-heart {
+  color: #fb2323;
+}
+/* Demo end */
+
+
+
+/* MyBot */
 mybot .chatCont {
   position: fixed;
   width: 400px;
@@ -329,37 +368,4 @@ mybot .suggestion span:last-child {
     height: 70% !important;
   }
 }
-
-
-/*demo*/
-.hd1 {
-  margin-top: 35vh;
-  font-size: 50px;
-  font-weight: 100;
-}
-
-.powered {
-  font-size: 17px;
-  margin-top: 20px;
-}
-
-.powered img {
-  width: 70px;
-}
-
-.footer {
-  margin-top: 50px;
-}
-
-.foo-txt {
-	font-size: 15px;
-	font-weight: 400;
-	font-family: 'Satisfy', cursive;
-	text-shadow: none;
-	color: #272727;
-}
-
-.fa-heart {
-	color: #fb2323;
-}
-/*demo*/
+/* MyBot end */
