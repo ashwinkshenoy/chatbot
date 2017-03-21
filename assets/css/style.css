@@ -1,8 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Satisfy);
 
 
+/* General */
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {
@@ -21,6 +31,28 @@ a:focus {
 .width100 {
   width: 100%;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  outline: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* General end*/
 
 mybot .chatCont {
   position: fixed;
@@ -41,6 +73,8 @@ mybot .close {
   position: fixed;
   right: 5px;
   margin-top: -60px;
+  color: #868686;
+  font-size: 18px;
 }
 
 mybot .bot_profile {
@@ -151,6 +185,8 @@ mybot .col-hgt {
   height: 100px;
   display: flex;
   align-items: center;
+  float: left;
+  margin-right: 10px;
 }
 
 mybot .chat-txt {
