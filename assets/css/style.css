@@ -22,7 +22,7 @@ a:focus {
   width: 100%;
 }
 
-.chatCont {
+mybot .chatCont {
   position: fixed;
   width: 400px;
   height: 400px !important;
@@ -37,13 +37,13 @@ a:focus {
 display: none;
 }
 
-.close {
+mybot .close {
   position: fixed;
   right: 5px;
   margin-top: -60px;
 }
 
-.bot_profile {
+mybot .bot_profile {
   position: fixed;
   right: 0;
   margin-top: -85px;
@@ -53,12 +53,12 @@ display: none;
   z-index: 1000;
 }
 
-.bot_p_img {
+mybot .bot_p_img {
   width: 80px;
   border-radius: 50%;
 }
 
-.chatForm {
+mybot .chatForm {
   position: fixed;
 	bottom: 0;
 	right: 0;
@@ -67,8 +67,8 @@ display: none;
   display: none;
 }
 
-.bot-txt,
-.bot-txt:focus {
+mybot .bot-txt,
+mybot .bot-txt:focus {
   box-shadow: none;
   border-radius: 0;
   height: 66px;
@@ -77,7 +77,7 @@ display: none;
   border-left: 1px solid #dcdcdc;
 }
 
-.resultDiv .botResult {
+mybot .resultDiv .botResult {
   background: #fff;
   color: #000;
   border-radius: 3px;
@@ -93,7 +93,7 @@ display: none;
   width: 100%;
 }
 
-.resultDiv .botResult:before {
+mybot .resultDiv .botResult:before {
   content: "";
   position: absolute;
   width: 0;
@@ -105,7 +105,7 @@ display: none;
   margin-top: -12px;
 }
 
-.resultDiv .userEnteredText {
+mybot .resultDiv .userEnteredText {
   background: #9C27B0;
   float: right;
   color: #ffffff;
@@ -123,7 +123,7 @@ display: none;
   width: 100%;
 }
 
-.resultDiv .userEnteredText:before {
+mybot .resultDiv .userEnteredText:before {
   content: "";
   width: 0;
   height: 0;
@@ -135,7 +135,7 @@ display: none;
   margin-top: -12px;
 }
 
-.profile_div {
+mybot .profile_div {
   position: fixed;
   bottom: 0;
   right: 10px;
@@ -143,17 +143,17 @@ display: none;
   cursor: pointer;
 }
 
-.img-profile {
+mybot .img-profile {
   width: 65px;
 }
 
-.col-hgt {
+mybot .col-hgt {
   height: 100px;
   display: flex;
   align-items: center;
 }
 
-.chat-txt {
+mybot .chat-txt {
   box-shadow: 0 0px 1px 0 rgba(0,0,0,0.16),0 0px 10px 0 rgba(0,0,0,0.12);
   padding: 15px 15px;
   border-radius: 50px;
@@ -161,7 +161,7 @@ display: none;
 }
 
 /* Spinner start */
-.spinner {
+mybot .spinner {
   background: #9C27B0;
   width: 70px;
   text-align: center;
@@ -174,7 +174,7 @@ display: none;
   border-top-left-radius: 0;
 }
 
-.spinner:before {
+mybot .spinner:before {
   content: "";
   position: absolute;
   width: 0;
@@ -186,7 +186,7 @@ display: none;
   margin-top: -7px;
 }
 
-.spinner > div {
+mybot .spinner > div {
   width: 10px;
   height: 10px;
   background-color: #fff;
@@ -197,12 +197,12 @@ display: none;
   margin-right: 5px;
 }
 
-.spinner .bounce1 {
+mybot .spinner .bounce1 {
   -webkit-animation-delay: -0.32s;
   animation-delay: -0.32s;
 }
 
-.spinner .bounce2 {
+mybot .spinner .bounce2 {
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
 }
@@ -225,7 +225,7 @@ display: none;
 
 
 /* Suggestions */
-.suggestion {
+mybot .suggestion {
   background: #fff;
   color: #000;
   border-radius: 3px;
@@ -241,7 +241,7 @@ display: none;
   width: 100%;
 }
 
-.suggestion:before {
+mybot .suggestion:before {
   content: "";
   position: absolute;
   width: 0;
@@ -253,7 +253,7 @@ display: none;
   margin-top: -12px;
 }
 
-.suggestion .sugg-options {
+mybot .suggestion .sugg-options {
   display: block;
   background: #9c27b0;
   color: #fff;
@@ -266,30 +266,30 @@ display: none;
   font-weight: 300;
 }
 
-.suggestion .sugg-title {
+mybot .suggestion .sugg-title {
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 10px;
 }
 
-.suggestion span:last-child {
+mybot .suggestion span:last-child {
   margin-bottom: 0;
 }
 /* Suggestions end */
 
 
 @media screen and (max-width: 500px) {
-  .resultDiv .userEnteredText,
-  .resultDiv .botResult,
-  .suggestion {
+  mybot .resultDiv .userEnteredText,
+  mybot .resultDiv .botResult,
+  mybot .suggestion {
     width: 90%;
     margin-bottom: 20px;
   }
-  .chatCont,
-  .chatForm {
+  mybot .chatCont,
+  mybot .chatForm {
     width: 100%;
   }
-  .chatCont {
+  mybot .chatCont {
     height: 70% !important;
   }
 }
