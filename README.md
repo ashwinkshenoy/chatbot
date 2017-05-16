@@ -1,6 +1,8 @@
 # ChatBot
 A Simple ChatBot Widget
 
+Check out the [Demo](http://ashwinshenoy.com/chatbot/)
+
 Kindly create an api.ai account and train the bot and integrate it in js/script.js file by using api.ai client key.
 
 Also based on getting the required fields (like name, email) , you can call your json backend to send email/integrate in slack etc.
