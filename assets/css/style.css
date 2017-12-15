@@ -204,6 +204,7 @@ mybot .resultDiv .userEnteredText {
   margin-bottom: 10px;
   margin-top: 5px;
   width: 100%;
+  word-wrap: break-word;
 }
 
 mybot .resultDiv .userEnteredText:before {
