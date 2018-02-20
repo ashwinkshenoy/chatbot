@@ -106,8 +106,6 @@ mybot .chatCont {
   border: 1px solid #dcdcdc;
   bottom: 65px;
   right: 0;
-  padding: 35px 20px 30px 20px;
-  overflow-y: auto;
   background: #efe7dd url(../img/bg2.png) repeat;
   border-top-left-radius: 3px;
   z-index: 10000;
@@ -174,6 +172,7 @@ mybot .resultDiv .botResult {
   margin-bottom: 10px;
   margin-top: 5px;
   width: 100%;
+  position: relative;
 }
 
 mybot .resultDiv .botResult:before {
@@ -184,7 +183,7 @@ mybot .resultDiv .botResult:before {
   border-top: 0px solid rgba(0, 0, 0, 0);
   border-bottom: 15px solid rgba(0, 0, 0, 0);
   border-right: 15px solid #fff;
-  left: 10px;
+  left: -15px;
   margin-top: -12px;
 }
 
@@ -326,6 +325,7 @@ mybot .suggestion {
   border-top-left-radius: 0;
   margin-bottom: 20px;
   width: 100%;
+  position: relative;
 }
 
 mybot .suggestion:before {
@@ -336,7 +336,7 @@ mybot .suggestion:before {
   border-top: 0px solid rgba(0, 0, 0, 0);
   border-bottom: 15px solid rgba(0, 0, 0, 0);
   border-right: 15px solid #fff;
-  left: 10px;
+  left: -15px;
   margin-top: -12px;
 }
 
@@ -363,6 +363,12 @@ mybot .suggestion span:last-child {
   margin-bottom: 0;
 }
 /* Suggestions end */
+
+.resultDiv {
+  padding: 35px 20px 30px 20px;
+  overflow-y: auto;
+  height: 100%;
+}
 
 
 @media screen and (max-width: 500px) {
