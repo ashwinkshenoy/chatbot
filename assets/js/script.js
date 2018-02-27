@@ -193,7 +193,7 @@ $(document).ready(function() {
 
 	//---------------------------------- Scroll to the bottom of the results div -------------------------------
 	function scrollToBottomOfResults() {
-		var terminalResultsDiv = document.getElementById('chatCont');
+		var terminalResultsDiv = document.getElementById('result_div');
 		terminalResultsDiv.scrollTop = terminalResultsDiv.scrollHeight;
 	}
 
