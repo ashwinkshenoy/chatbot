@@ -99,6 +99,18 @@ a:focus {
 
 
 /* MyBot */
+mybot.center .chatCont,
+mybot.center .profile_div {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+mybot.left .chatCont,
+mybot.left .profile_div {
+  left: 0;
+}
+
 mybot .chatCont {
   position: fixed;
   width: 400px;
@@ -113,7 +125,7 @@ display: none;
 }
 
 mybot .close {
-  position: fixed;
+  position: absolute;
   right: 5px;
   margin-top: -60px;
   color: #868686;
@@ -122,7 +134,7 @@ mybot .close {
 }
 
 mybot .bot_profile {
-  position: fixed;
+  position: absolute;
   right: 0;
   margin-top: -45px;
   text-align: center;
@@ -141,8 +153,8 @@ mybot .bot_p_img {
 }
 
 mybot .chatForm {
-  position: fixed;
-	bottom: 0;
+  position: absolute;
+  bottom: -65px;
 	right: 0;
 	margin-bottom: 0;
 	width: 400px;
