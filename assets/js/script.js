@@ -230,5 +230,4 @@ $(document).ready(function() {
 		$('.suggestion').remove();
 	});
 	// Suggestions end -----------------------------------------------------------------------------------------
-
-});// Doc.ready close
+});
