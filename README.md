@@ -1,6 +1,10 @@
 # ChatBot
 A Simple ChatBot Widget
 
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
+
 Check out the [Demo](http://ashwinshenoy.com/chatbot/)
 
 Kindly create an api.ai account and train the bot and integrate it in js/script.js file by using api.ai client key.
@@ -18,3 +22,4 @@ Remember to change the api.ai key in js/script.js file
 There can be mistakes in the code :P
 
 Do Let me know your thoughts on this :)
+!
